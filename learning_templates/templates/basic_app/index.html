@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+<div class="jumbotron">
+    <h1>Welcome to index</h1>
+    <h1>{{ text|cut:'hello' }}</h1>
+    <h1>{{ number|add:99 }}</h1>
+</div>
+{% endblock %}
